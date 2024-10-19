@@ -1,0 +1,135 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h2
+{
+    color: whitesmoke;
+    text-align: center;
+}
+
+body
+{
+    padding: 20px;
+    background-color: brown ;
+}
+
+.button
+{
+    display: block;
+    margin: 20px auto;
+    width: 120px;
+    background-color:darkgrey;
+    padding: 10px;
+}
+
+.results-header    
+{
+    color: whitesmoke;
+    margin: 20px;
+}
+
+#toggle-results
+{
+    margin: 20px;
+    background-color:burlywood;
+}
+
+#month-selector
+{
+    width: 120px;
+    color: black;
+    background-color:burlywood;
+}
+
+.results-list-item
+{
+    color: whitesmoke;
+    margin: 10px;
+}
+
+#coffee-form
+{
+    
+    justify-content: center;
+}
+
+.form-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.slider-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+
+.break
+{
+    width: 100%;
+}
+
+.slider-label
+{
+    text-align: left;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.drink-slider
+{
+    width: 85%;
+    display: inline-block;
+}
+
+
+.slider-value
+{
+    
+    width: 50px;
+    text-align: right;
+    flex-grow: 1;
+    flex-basis: 0;
+
+}
+
+
+.list-container
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 350px)
+{
+
+    .drink-slider
+    {
+        max-width: 75%;
+    }
+
+    #people-list-container
+    {
+       font-size: 0.75em;
+    }
+  
+}

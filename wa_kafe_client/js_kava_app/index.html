@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidování kávy</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="form-container form-inline">
+        <h2>Evidování kávy</h2>
+        <form id="coffee-form" action="http://ajax1.lmsoft.cz/procedure.php?cmd=saveDrinks" method="post">
+            <div id="people-list-container" class="list-container"></div>
+
+            <div id="drink-list-container" class="list-container"></div>
+
+            
+            <button type="submit" class="button">Odeslat</button>
+        </form>
+
+        <select id="month-selector">
+            <option value="1">leden</option>
+            <option value="2">únor</option>
+            <option value="3">březen</option>
+            <option value="4">duben</option>
+            <option value="5">květen</option>
+            <option value="6">červen</option>
+            <option value="7">červenec</option>
+            <option value="8">srpen</option>
+            <option value="9">září</option>
+            <option value="10">říjen</option>
+            <option value="11">listopad</option>
+            <option value="12">prosinec</option>
+        </select>
+        <button id="toggle-results" class="button">Zobrazit výsledky</button>
+        <div id="results" class="" style="display: none;"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

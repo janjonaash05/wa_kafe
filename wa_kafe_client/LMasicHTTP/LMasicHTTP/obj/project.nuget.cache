@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TLtFlARzCwrTi5rTiUm7U30BLyPTxEJTl/PK9ybdglexpkY9oDRse2ReMxq436k7HQVkTJvKxrMj1Ia+W7bCfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joima\\Documents\\GitHub\\wa_kava\\LMasicHTTP\\LMasicHTTP\\LMasicHTTP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joima\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
